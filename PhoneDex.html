@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PhoneDex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image" href="favicon.png">
+</head>
+<body>
+    <header class="header">
+        <h1 style="font-family: Arial, Helvetica, sans-serif;"><span style="color: blue;">P</span><span style="color: rgb(28, 28, 255);">h</span><span style="color: blue;">o</span><span style="color: rgb(23, 70, 211);">n</span><span style="color: blue;">e</span><span style="color: silver;">D</span><span style="color: rgb(160, 160, 160);">e</span><span style="color: rgb(185, 185, 185);">x</span></h1>
+    </header>
+    <nav class="navbar">
+        <div style="display: flex; align-items: center; gap: 20px;">
+        <div class="menu-icon">&#9776</div>
+        <a style="color: white;" href="login.html">Login</a>
+        </div>
+        <form class="search-bar">
+            <textarea type="text" rows="1" cols="400" placeholder="Search phones"></textarea>
+        </form>
+    </nav>
+    <div class="container">
+        <h2 id="T">Top Picks</h2>
+        <div style="display: flex; justify-content: space-around;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <a href="phones/samsung-s25.html">Best Compact Flagship</a>
+                <br>
+                <img src="images/S25.png" alt="Samsung Galaxy S25" width="150px" height="150px">
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <a href="phones/oneplus-13.html">Best Value</a>
+                <br>
+                <img src="images/OnePlus13.png" alt="OnePlus 13" width="150px" height="150px">
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <a href="phones/motorola-edge60.html">Best Budget</a>
+                <br>
+                <img src="images/Edge60.png" alt="Motorola Edge 60" width="150px" height="150px">
+            </div>
+        </div>
+    </div>    
+    <div class="container">
+        <h2 id="S">Specifications</h2>
+        <form>
+            <label>Select a phone brand:</label>
+            <br><br>
+            <div class="brand">
+                <a class="button" href="brands/samsung.html">Samsung</a>
+                <a class="button" href="brands/apple.html">Apple</a>
+                <a class="button" href="brands/google.html">Google</a>
+                <a class="button" href="brands/oneplus.html">OnePlus</a>
+                <a class="button" href="brands/motorola.html">Motorola</a>
+                <a class="button" href="brands/nothing.html">Nothing</a>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <h2 id="N">Newly Launched</h2>
+        <div style="display: flex; justify-content: space-around;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="images/iPhone17.png" alt="Apple iPhone 17" width="100px" height="100px">
+                <br>
+                <a href="phones/apple-iphone17.html">Apple iPhone 17</a>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="images/Pixel10.png" alt="Google Pixel 10" width="100px" height="100px">
+                <br>
+                <a href="phones/google-pixel10.html">Google Pixel 10</a>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="images/Phone3.png" alt="Nothing Phone 3" width="100px" height="100px">
+                <br>
+                <a href="phones/nothing-phone3.html">Nothing Phone 3</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <br>
+        <div style="display: flex; justify-content: space-around;">
+            <a style="color: white;" href="PhoneDex.html">Home</a>
+            <a style="color: white;" href="#T">Top Picks</a>
+            <a style="color: white;" href="#S">Specifications</a>
+            <a style="color: white;" href="#N">Newly Launched</a>
+        </div>
+        <br><br>
+        <p>&copy; 2025 PhoneDex</p>
+        <p>Contact us @ 9415368076</p>
+        <p>phonedex.re@gmail.com</p>
+    </footer>
+</body>
+</html>
